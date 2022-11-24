@@ -36,4 +36,5 @@ sudo ln -s /etc/nginx/sites-available/myserver.config /etc/nginx/sites-enabled/
 sudo systemctl restart nginx
 
 cd /home/ubuntu/cyf-first-api
+sudo pm2 stop index.js
 sudo pm2 start index.js
